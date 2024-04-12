@@ -32,4 +32,5 @@
 
 # 📊 GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=remigere&theme=default&hide_border=true)<br/>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=remigere&hide_progress=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=remigere&theme=default&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
