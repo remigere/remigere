@@ -16,7 +16,7 @@
 
 
 <!--   my-ticker -->    
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=4+years+of+programming+experience;Machine+Learning+and+Generative+AI+Expert;Previously+at+Xpeng+Motors,+Advance+Intelligence,+Stanford+University;Stanford+University+MS+in+MS%26E;Ecole+Centrale+MS+in+Applied+Mathematics)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=4+years+of+programming+experience;Machine+Learning+and+Generative+AI+Expert;Previously+at+Xpeng+Motors,+and+Advance+Intelligence+Group+;Stanford+University+MS+in+MS%26E;Ecole+Centrale+MS+in+Applied+Mathematics)](https://git.io/typing-svg)
 
 
 
@@ -77,7 +77,7 @@
 </p> -->
 
 <div align="center">
-<summary>Trophy: Github Profile Trophy</summary>
+<h2> Trophy: Github Profile Trophy</h2>
 </div>
 
 <p align="center"> 
