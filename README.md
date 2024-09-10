@@ -98,7 +98,10 @@ graph TD;
     machine-learning-->Deployment;
    ```
    
- 
+ <summary>Leetcode Profile</summary>
+
+![](https://leetcard.remigere.cool/lapor?ext=contest)
+![Leetcode Stats](https://leetcard.jacoblin.cool/remigere?theme=unicorn&ext=contest)
 
 
 <!-- <div align="center">
@@ -114,7 +117,7 @@ width="30%">
 
 
 
-<img src="/github-metrics.svg" alt="Metrics" width="100%">
+<!-- <img src="/github-metrics.svg" alt="Metrics" width="100%"> -->
 
 
 
