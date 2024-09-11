@@ -40,7 +40,10 @@
 <!-- ### 📈 GitHub Activity Graph: -->
 
 <!--   green snake -->
-<!-- ![remigere's github activity graph](https://raw.githubusercontent.com/remigere/remigere/output/github-contribution-grid-snake.svg) -->
+### Contribution snk
+
+![GitHub Snake](https://raw.githubusercontent.com/your_github_username/re/output/github-contribution-grid-snake.svg)
+
 <!--   stats + languages -->
 |                                                                                                                                         |                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -50,7 +53,7 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=remigere"></img>
 
 <!-- dark snake -->
-<!-- ![remigere's github activity graph](https://raw.githubusercontent.com/remigere/remigere/output/github-contribution-grid-snake-dark.svg) -->
+![remigere's github activity graph](https://raw.githubusercontent.com/remigere/remigere/output/github-contribution-grid-snake-dark.svg)
 
 <!--   profile-green-animate -->
 <!-- ![](./profile-3d-contrib/profile-green-animate.svg) -->
