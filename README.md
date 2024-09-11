@@ -40,9 +40,6 @@
 <!-- ### 📈 GitHub Activity Graph: -->
 
 <!--   green snake -->
-### Contribution snk
-
-![GitHub Snake](https://raw.githubusercontent.com/your_github_username/re/output/github-contribution-grid-snake.svg)
 
 <!--   stats + languages -->
 |                                                                                                                                         |                                                                                                                           |
