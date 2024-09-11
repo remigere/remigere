@@ -18,9 +18,3 @@ jobs:
         with:
           github_user_name: remigere
           svg_out_path: dist/github-contribution-grid-snake.svg
-
-      # Upload the snake.svg
-      - uses: actions/upload-artifact@v2
-        with:
-          name: snake
-          path: dist/github-contribution-grid-snake.svg
