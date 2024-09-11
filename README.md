@@ -53,7 +53,7 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=remigere"></img>
 
 <!-- dark snake -->
-![remigere's github activity graph](https://raw.githubusercontent.com/remigere/remigere/output/github-contribution-grid-snake-dark.svg)
+![remigere's github activity graph](https://raw.githubusercontent.com/remigere/remigere/output/github-contribution-grid-snake.svg)
 
 <!--   profile-green-animate -->
 <!-- ![](./profile-3d-contrib/profile-green-animate.svg) -->
