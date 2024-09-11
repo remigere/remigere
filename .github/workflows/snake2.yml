@@ -1,0 +1,39 @@
+name: Generate GitHub Contribution Snake
+
+on:
+  # Schedule the workflow to run every day at midnight (UTC)
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Allow the workflow to be manually triggered
+  workflow_dispatch:
+  
+  # Run the workflow when pushing changes to the main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Check out the repository to the runner
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Generate the snake SVG
+      - name: Generate Snake SVG
+        uses: Platane/snk@master
+        with:
+          github_user_name: your_github_username  # Replace with your GitHub username
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      # Commit the generated SVG to the repository
+      - name: Commit Snake SVG
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add dist/github-contribution-grid-snake.svg
+          git commit -m "Generated GitHub Contribution Snake"
+          git push
