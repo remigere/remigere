@@ -44,10 +44,7 @@
 <!--   stats + languages -->
 |                                                                                                                                         |                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-<!--  | ![remigere's github stats](https://github-readme-stats.vercel.app/api?username=remigere&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=remigere&theme=radical&layout=compact) | -->
-
-| ![GitHub stats](https://github-readme-stats.vercel.app/api?username=remigere&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=remigere&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats) |
-
+| ![remigere's github stats](https://github-readme-stats.vercel.app/api?username=remigere&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=remigere&theme=radical&layout=compact) |
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=remigere"></img>
 
