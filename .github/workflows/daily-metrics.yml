@@ -1,0 +1,46 @@
+# .github/workflows/daily-metrics.yml
+name: Daily Metrics
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+  workflow_dispatch:
+
+jobs:
+  collect_metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Count Lines of Code
+        run: cloc . > cloc_output.txt
+
+      - name: Cyclomatic Complexity (SonarQube)
+        run: |
+          sonar-scanner -Dsonar.projectKey=your_project \
+                        -Dsonar.sources=. \
+                        -Dsonar.host.url=https://sonarcloud.io \
+                        -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+
+      - name: Test Coverage
+        run: bash <(curl -s https://codecov.io/bash) -t ${CODECOV_TOKEN}
+
+      - name: Generate Report
+        run: |
+          echo "Lines of Code:" >> daily_report.txt
+          cat cloc_output.txt >> daily_report.txt
+          echo "Cyclomatic Complexity:" >> daily_report.txt
+          sonar-scanner report >> daily_report.txt
+
+      - name: Send report to Slack or Email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Daily GitHub Metrics Report"
+          body: "$(cat daily_report.txt)"
+          to: youremail@example.com
