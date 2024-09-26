@@ -43,4 +43,4 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "Daily GitHub Metrics Report"
           body: "$(cat daily_report.txt)"
-          to: youremail@example.com
+          to: sremigere@gmail.com
